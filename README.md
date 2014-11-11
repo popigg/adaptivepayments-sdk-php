@@ -31,7 +31,7 @@ To use the SDK,
 {
     "name": "me/shopping-cart-app",
     "require": {
-        "paypal/adaptivepayments-sdk-php":"v2.5.106"
+        "paypal/adaptivepayments-sdk-php":"2.*"
     }
 }
 ```
@@ -67,7 +67,7 @@ For example,
 
 	$service = new AdaptivePaymentsService($config);
 	$response = $service->Pay($payRequest);	
-	if(strtoupper($response->responseEnvelope->ack == 'SUCCESS') {
+	if(strtoupper($response->responseEnvelope->ack) == 'SUCCESS') {
 		// Success
 	}
 ```  
