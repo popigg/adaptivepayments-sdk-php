@@ -15,7 +15,6 @@
         "ext-curl": "*",
         "paypal/sdk-core-php":"dev-master"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "classmap": ["lib"]
     }
