@@ -10,10 +10,16 @@
             "homepage": "https://github.com/paypal/adaptivepayments-sdk-php/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:popigg/sdk-core-php.git"
+        }
+    ],
     "require": {
         "php": ">=5.2.0",
         "ext-curl": "*",
-        "paypal/sdk-core-php":"2.5.8"
+        "paypal/sdk-core-php":"dev-starz"
     },
     "autoload": {
         "classmap": ["lib"]
