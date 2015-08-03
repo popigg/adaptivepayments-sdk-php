@@ -19,7 +19,7 @@
     "require": {
         "php": ">=5.2.0",
         "ext-curl": "*",
-        "paypal/sdk-core-php":"dev-starz"
+        "paypal/sdk-core-php":"dev-tslv1Hotfix"
     },
     "autoload": {
         "classmap": ["lib"]
